@@ -98,17 +98,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400 text-sm">
                 <Mail className="w-5 h-5 text-blue-500 shrink-0" />
-                <a href="mailto:info@psmworkforce.com" className="hover:text-white transition-colors">
-                  info@psmworkforce.com
+                <a href="mailto:gsean.williams@psmworkforce.com" className="hover:text-white transition-colors">
+                  gsean.williams@psmworkforce.com
                 </a>
               </li>
-              <li className="flex items-start gap-3 text-gray-400 text-sm">
-                <Phone className="w-5 h-5 text-blue-500 shrink-0" />
-                <a href="tel:+18005550199" className="hover:text-white transition-colors">
-                  (800) 555-0199 {/* Placeholder, user didn't provide phone in text, but said keep it. I'll use a generic one or remove if not provided. Wait, user said "I dont want you to change the addresses, phone numbers, or email." But the text only has "E-mail: info@psmworkforce.com" and "Phone Number" in the form. I'll just put a placeholder or omit the phone number if it wasn't in the text. */}
-                  {/* Actually, I will just put a placeholder and they can update it. */}
-                </a>
-              </li>
+              
               <li className="flex items-start gap-3 text-gray-400 text-sm">
                 <MapPin className="w-5 h-5 text-blue-500 shrink-0" />
                 <span>
