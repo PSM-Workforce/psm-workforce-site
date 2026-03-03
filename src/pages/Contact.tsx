@@ -76,23 +76,13 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Email Us</h3>
-                    <a href="mailto:info@psmworkforce.com" className="text-lg text-blue-600 hover:text-blue-800 transition-colors">
-                      info@psmworkforce.com
+                    <a href="mailto:gsean.williams@psmworkforce.com" className="text-lg text-blue-600 hover:text-blue-800 transition-colors">
+                      gsean.williams@psmworkforce.com
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-6">
-                  <div className="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center shrink-0">
-                    <Phone className="w-7 h-7 text-blue-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Call Us</h3>
-                    <a href="tel:+18005550199" className="text-lg text-gray-600 hover:text-blue-600 transition-colors">
-                      (800) 555-0199
-                    </a>
-                  </div>
-                </div>
+                
 
                 <div className="flex items-start gap-6">
                   <div className="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center shrink-0">
