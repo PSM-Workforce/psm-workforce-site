@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import clsx from 'clsx';
+import Logo from './Logo';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -52,14 +53,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="flex items-center gap-2 group">
-              <div className="w-10 h-10 bg-blue-900 rounded-lg flex items-center justify-center text-white font-bold text-xl group-hover:bg-blue-800 transition-colors">
-                PSM
-              </div>
-              <span className={clsx("font-bold text-xl tracking-tight", scrolled ? "text-gray-900" : "text-white")}>
-                Workforce
-              </span>
-            </Link>
+            <Logo compact={scrolled} />
           </div>
 
           {/* Desktop Menu */}

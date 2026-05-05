@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react';
+import Logo from './Logo';
 
 export default function Footer() {
   return (
@@ -8,14 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-6">
-            <Link to="/" className="flex items-center gap-2 group">
-              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl group-hover:bg-blue-500 transition-colors">
-                PSM
-              </div>
-              <span className="font-bold text-xl tracking-tight text-white">
-                Workforce
-              </span>
-            </Link>
+            <Logo />
             <p className="text-gray-400 text-sm leading-relaxed">
               Driving cost efficiency, technology enablement, and supplier performance by augmenting or developing workforce professionals since 2012.
             </p>
